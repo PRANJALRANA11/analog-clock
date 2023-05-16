@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+img{
+  width: 50%;
+}
+#hour{
+    margin-top: 14%;
+    position: absolute;
+    height: 17%;
+    background-color: black;
+   width: 5px;
+   transform-origin:bottom ;
+   border-radius: 4px;
+}
+#min{
+    margin-top: 10%;
+    position: absolute;
+    height: 25%;
+  background-color: black;
+  width: 2px;
+  transform-origin:bottom;
+  border-radius: 4px;
+}
+#sec{
+    margin-top: 17%;
+    position: absolute;
+    height: 11%;
+   background-color: black;
+   width:1px;
+   transform-origin:bottom;
+    border-radius: 4px;
+}
